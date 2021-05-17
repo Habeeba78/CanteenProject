@@ -1,0 +1,15 @@
+<h2>Menu works!</h2>
+<a [routerLink]="['/menu',{outlets: {'data': ['user']}}]"> User</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets: {'data': ['employ']}}]"> Employ</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets: {'data': ['customer']}}]"> Customer</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets: {'data': ['usersearch']}}]"> Usersearch</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets: {'data': ['employsearch']}}]"> EmploySearch</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets: {'data': ['customersearch']}}]"> CustomerSearch</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<hr/>
+<router-outlet name="data"></router-outlet>
